@@ -208,18 +208,18 @@ Controls 2, libusb and libudev. KF5 WindowSystem is optional and enables the KDE
 
 ```
 # Fedora
-sudo dnf install cmake gcc-c++ libusb1-devel systemd-devel qt5-qtbase-devel qt5-qtdeclarative-devel \
-    qt5-qtquickcontrols2-devel qt5-qtsvg qt5-qtwayland kf5-kwindowsystem-devel
+sudo dnf install cmake gcc-c++ libusb1-devel systemd-devel qt6-qtbase-devel qt6-qtdeclarative-devel \
+    qt6-qtsvg qt6-qtwayland kf5-kwindowsystem-devel
 
 # Debian / Ubuntu
-sudo apt install build-essential cmake pkg-config libusb-1.0-0-dev libudev-dev qtbase5-dev \
-    qtdeclarative5-dev qtquickcontrols2-5-dev libqt5svg5 qtwayland5 libkf5windowsystem-dev \
-    qml-module-qtquick2 qml-module-qtquick-window2 qml-module-qtquick-layouts \
+sudo apt install build-essential cmake pkg-config libusb-1.0-0-dev libudev-dev qt6-base-dev \
+    qt6-declarative-dev qt6-svg-dev qtwayland5 libkf5windowsystem-dev \
+    qml6-module-qtquick qml-module-qtquick-window2 qml-module-qtquick-layouts \
     qml-module-qtquick-controls2 qml-module-qtquick-templates2 qml-module-qt-labs-settings \
     qml-module-qt-labs-platform
 
 # Arch
-sudo pacman -S cmake qt5-base qt5-declarative qt5-quickcontrols2 qt5-svg qt5-wayland kwindowsystem5 libusb
+sudo pacman -S cmake qt6-base qt6-declarative qt6-svg qt6-wayland kwindowsystem libusb
 ```
 
 Then:
