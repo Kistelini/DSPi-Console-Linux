@@ -1,7 +1,7 @@
 pkgbase = dspi-console
 	pkgdesc = Control application for the DSPi audio processor
 	pkgver = 1.1.6beta4
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/WeebLabs/DSPi-Console-Linux
 	install = dspi-console.install
 	arch = x86_64
@@ -13,7 +13,6 @@ pkgbase = dspi-console
 	depends = qt5-declarative
 	depends = qt5-quickcontrols2
 	depends = qt5-svg
-	depends = qt5-wayland
 	depends = hicolor-icon-theme
 	depends = kwindowsystem5
 	depends = libusb

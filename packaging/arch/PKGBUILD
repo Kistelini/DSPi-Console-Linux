@@ -2,13 +2,13 @@
 # Builds DSPi Console from source against the system Qt 5.
 pkgname=dspi-console
 pkgver=1.1.6beta4
-pkgrel=1
+pkgrel=2
 _commit=7b9143787b1f3d60f4a9f757e617e93292c35ea7
 pkgdesc="Control application for the DSPi audio processor"
 arch=('x86_64')
 url="https://github.com/WeebLabs/DSPi-Console-Linux"
 license=('unknown')
-depends=('qt5-base' 'qt5-declarative' 'qt5-quickcontrols2' 'qt5-svg' 'qt5-wayland' 'hicolor-icon-theme'
+depends=('qt5-base' 'qt5-declarative' 'qt5-quickcontrols2' 'qt5-svg' 'hicolor-icon-theme'
          'kwindowsystem5' 'libusb' 'systemd-libs' 'libx11' 'gcc-libs' 'glibc')
 makedepends=('git' 'cargo' 'cmake')
 optdepends=('kwayland-integration: blurred sidebar on KDE Plasma (Wayland)'
